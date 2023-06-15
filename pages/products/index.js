@@ -13,6 +13,7 @@ export default function ProductList() {
 
   return (
     <>
+      <pre>{JSON.stringify(data, null, 2)}</pre>
       <ul>
         {data.map((dates) => (
           <li key={dates.id}>
